@@ -1,0 +1,12 @@
+# Entornos virtuales de Python
+venv/
+env/
+__pycache__/
+
+# Modelos pesados o carpetas de assets locales si no quieres subirlas
+assets/
+uploads/
+*.onnx
+*.jpg
+*.png
+*.jpeg
