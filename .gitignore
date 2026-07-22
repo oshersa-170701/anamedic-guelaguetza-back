@@ -1,12 +1,10 @@
-# Entornos virtuales de Python
+# Entornos virtuales
 venv/
 env/
 __pycache__/
 
-# Modelos pesados o carpetas de assets locales si no quieres subirlas
-assets/
+# Excluir la carpeta de fotos generadas dinámicamente
 uploads/
+
+# Excluir el modelo pesado de IA (lo descargaremos o manejaremos en la nube si es necesario)
 *.onnx
-*.jpg
-*.png
-*.jpeg
